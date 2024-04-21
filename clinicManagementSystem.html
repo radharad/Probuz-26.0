@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="PROBUZ TECHNOLOGIES PVT. LTD">
+    <meta name="keywords" content="Probuz">
+    <meta name="author" content="Probuz Technologies">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic Management System</title>
+    <link rel="icon" type="image/x-icon" href="https://probuztech.in/Content/assets/images/favicon/favicon.png">
+     <!--Bootstrap css-->
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" class="css">
+     <!--slick css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <!--font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <link rel="stylesheet" href="css/style.css" class="css">
+</head>
+<body>
+
+<!--Nav Section Start-->  
+
+<div class="first-nav">
+<div class="container">
+    <div class="d-flex justify-content-between">
+        <div class="d-flex align-items-center gap-2">
+            <i class="fa-solid fa-phone"></i>
+            <h6><a href="tel:7875006677">7875006677</a></h6>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+            <i class="fa-solid fa-envelope"></i>
+            <h6>info@probuztech.com</h6>
+        </div>
+    </div>
+</div>
+</div> 
+
+<nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><div><img src="https://probuztech.in/Content/probuz%20logo.png" alt="logo" class="img-fluid"></div></a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <div class="dropbtn">Company
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="about.html">About Us</a>
+                          <a href="choose.html">Why Choose Us</a>
+                          <a href="leadership.html">Leadership Team</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <div class="dropbtn">IT Solutions
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown-content it-solution-content">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <h6>IT Solutions</h6>
+                                    <a href="softwareDevelopment.html">Software Development</a>
+                                    <a href="digitalMarketing.html">Digital Marketing</a>
+                                    <a href="technicalSupport.html">Technical Support</a>
+                                    <a href="apiServicing.html">API Servicing</a>
+                                    <a href="security.html">Security</a>
+                                    <a href="appDevelopment.html">App Development</a>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <h6>Industries</h6>
+                                    <a href="healthCare.html">Health Care</a>
+                                    <a href="education.html">Education</a>
+                                    <a href="ecommerse.html">Ecommerse</a>
+                                    <a href="finance.html">Finance</a>
+                                    <a href="solarUtilities.html">Solar & Utilities</a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li>
+                    <div class="dropdown">
+                        <div class="d-flex justify-content-center align-items-center gap-1">
+                            <i class="fa-solid fa-user"></i>
+                            <div class="dropbtn loginbtn">Login
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>    
+                        <div class="dropdown-content login-content">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <h6><span><img src="https://probuztech.in/Content/assets/images/icons/client.png" alt="image"></span>Customer</h6>
+                                    <a href="https://probuztech.in/Customer/Customer_Register" class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-square-full"></i>
+                                        <div>Register</div>
+                                    </a>
+                                    <a href="https://probuztech.in/Customer/Cust_Login" class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-square-full"></i>
+                                        <div>Login</div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <h6><span><img src="https://probuztech.in/Content/assets/images/icons/employee.png" alt="image"></span>Employee</h6>
+                                    <a href="https://probuztech.in/Employee/SignUp" class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-square-full"></i>
+                                        <div>Register</div>
+                                    </a>
+                                    <a href="https://probuztech.in/Employee/SignIn" class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-square-full"></i>
+                                        <div>Login</div>
+                                    </a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>    
+                </li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav> 
+
+<!--Nav Section End-->
+
+<!--Clinic Management Home Section Start-->
+
+<div class="clinic-management-home-section">
+
+<div class="home-content-1">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 cpl-12">
+            <div class="content">
+                <h1>The Best Clinic Management Software For Your Clinic</h1>
+                <p>
+                    With Probuz Clinic Management Software, we don’t let you be clueless about functionalities. To help you better understand, we have created numerous demo Clinic Management Software videos for your benefit. Get benefitted with Asia’s best Clinic Management Software
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 cpl-12">
+          <img src="https://probuztech.in/Content/assets/images/clinic/clinic.png" class="img-fluid" alt="image">
+        </div>
+    </div>
+    </div>
+  </div> 
+
+  <div class="home-content-2">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 cpl-12">
+            <img src="https://probuztech.in/Content/assets/images/clinic/clinic.png" class="img-fluid" alt="image">
+        </div>
+        <div class="col-lg-6 col-md-6 cpl-12">
+            
+            <div class="content">
+                <h1>Keep Business Safe And Ensure High Availability.</h1>
+                <p>
+                    You can always switch between your clinics inside the dashboard. This gives you the comfort of accessing your Clinic Management Software as a one stop shop for management of multiple clinics. Can your Clinic Management Software get more easy and effortless to use?
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="home-content-1">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 cpl-12">
+            <div class="content">
+                <h1>We Run All Kinds Of IT Services That Vow Your Success</h1>
+                <p>
+                    Managing new and returning patients is now made effortless with Probuz Clinic Management Software.Past patient details can be pulled out quickly by just knowing a single detail. It could be return number, patient id, return date, patient name, patient mobile, email id etc , your Clinic Management Software makes things as simple as that!
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 cpl-12">
+            <img src="https://probuztech.in/Content/assets/images/clinic/clinic.png" class="img-fluid" alt="image">
+        </div>
+    </div>
+    </div>
+  </div> 
+
+  <div class="home-content-2">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 cpl-12">
+            <img src="https://probuztech.in/Content/assets/images/clinic/clinic.png" class="img-fluid" alt="image">
+        </div>
+        <div class="col-lg-6 col-md-6 cpl-12">
+            <div class="content">
+                <h1>Keep Business Safe And Ensure High Availability.</h1>
+                <p>
+                    An ideal Clinic Management Software has to manage multiple clinics and perform multiple functions. Along with this, with Probuz Clinic Management Software as an admin you can monitor the access given to the users and enable/disable features based on your specific clinic requirements.
+                </p>
+            </div>
+        </div>
+       
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<!--Clinic Management Home Section End-->
+
+<div class="sideBar">
+    <div class="offer">
+        <img src="https://probuztech.in/Content/OFFER-1.gif" alt="offer" class="img-fluid">
+    </div>
+    <div class="call">
+        <a href="tel:9623440094">
+        <p>Call Now 9623440094&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone"></i></p>
+        </a>
+    </div>
+    <div class="whatsapp">
+        <a href="https://wa.me/9623440094">
+        <p>WhatsApp 9623440094&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-whatsapp"></i></p>
+        </a>
+    </div>
+    </div>
+
+<!--Cloud Software Section Start-->
+
+<div class="cloud-software-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Take Your Practice To The Cloud</h2>
+                <p><i class="fa-solid fa-check"></i>Get rid of your paper prescriptions & old clunky on-premise / non scalable software.</p>
+                <p><i class="fa-solid fa-check"></i>Transform your practice using Probuz<span> Cloud based Clinic Management Software.</span></p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/Take_your_practice.png" class="img-fluid" alt="image">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Cloud Software Section End-->
+
+<!--Capture Prescriptions Section Start-->
+
+<div class="capture-prescriptions-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/Prec_60sec.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Capture E-Prescriptions In 60 Seconds</h2>
+                <p><i class="fa-solid fa-check"></i>You take care of your patients, let Probuz Clinic Management Software do the rest for you.</p>
+                <p><i class="fa-solid fa-check"></i>Our custom templates & tools use the best of Machine Learning & AI technologies.</p>
+                <p><i class="fa-solid fa-check"></i>Generate E-prescriptions in 60 seconds or less.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Capture Prescriptions Section End-->
+
+<!--Healthcare Demo Section Start-->
+
+<div class="healthcare-demo-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/slider.png" class="img-fluid" alt="slider">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <iframe width="530" height="691"
+                src="https://probuztech.in/Email_Template/EnquiryIframe.html" name="myframe" id="myframe">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Healthcare Demo Section End-->
+
+<!--Earn Money Section Start-->
+
+<div class="earn-money-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Get More Control, Earn More Money!</h2>
+                <p><i class="fa-solid fa-check"></i>Probuz Clinic Management System handles end to end Revenue Management Cycle of your clinics.</p>
+                <p><i class="fa-solid fa-check"></i>This way you can track your clinic’s daily revenues, inventory, receivables all at the click of a button.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/More_Money.png" class="img-fluid" alt="image">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Earn Money Section End-->
+
+<!--Consultation Section Start-->
+
+<div class="consultation-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <h5>Free Consultation</h5>
+                <h3>Ready To Transform Your Clinic Operations Or Do You Still Prefer Working The Old Way?</h3>
+                <p>Speak to our experts on the best suited Clinic Management Software for your Clinic, make timely decisions, handle patient information more effortlessly and also manage everything in a single interface</p>
+                <button class="button">
+                    <span class="button-content">Get Free Consultation&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i></span>
+                  </button>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/onlirn.png" alt="consultation" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Consultation Section End-->
+
+<!--Value Money Section Start-->
+
+<div class="value-money-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/la[top.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Value For Money</h2>
+                <p><i class="fa-solid fa-check"></i>Unlike competitors, we don’t overdesign & over sell our Clinic Management Software.</p>
+                <p><i class="fa-solid fa-check"></i>We keep our overheads low & pass on the accrued cost benefits directly to the customer.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Value Money Section End-->
+
+<!--All Clinic Management Section Start-->
+
+<div class="all-clinic-management-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Goodbye To One Size Fits All Clinic Management Software</h2>
+                <p><i class="fa-solid fa-check"></i>We have built a ready to use customizable software for every speciality.</p>
+                <p><i class="fa-solid fa-check"></i>Dental, Ophthalmology or GP Software our speciality suite is growing fast.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/Bid_Goodbye.png" class="img-fluid" alt="image">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--All Clinic Management Section End-->
+
+<!--Integrated Beautiful Section Start-->
+
+<div class="integrated-beautiful-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/Being_integrated.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Being Integrated Is Beautiful</h2>
+                <p><i class="fa-solid fa-check"></i>Put an end to your struggle of putting together bits & pieces of software from different vendors.</p>
+                <p><i class="fa-solid fa-check"></i>Be it <span>Clinic Management Software, </span>EHR / EMR Software or Online Appointment Booking etc</p>
+                <p><i class="fa-solid fa-check"></i>With Probuzintegrated platform, the hardest thing you have to do is to unpack the box.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Integrated Beautiful Section End-->
+
+
+<!--Estimation Section Start-->
+
+<div class="estimation-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <h5>Free Estimation</h5>
+                <h3>Confused About The Best Clinic Management Software For Your Clinic?</h3>
+                <p>Reach out to our product specialists, share information about your requirements and get customised estimation on Probuz Clinic Management Software tailor made for your clinic needs.</p>
+                <button class="button">
+                    <span class="button-content">Get Free Consultation&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i></span>
+                  </button>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/hrms/Project-Estimation-Methoda.png" alt="consultation" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Estimation Section End-->
+
+<!--Data Security Section Start-->
+
+<div class="data-security-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <video autoplay="" muted="" style="width: 80%;">
+                    <source src="https://probuztech.in/Content/assets/images/clinic/Data_Security.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Best In Class Data Security Standards</h2>
+                <p><i class="fa-solid fa-check"></i>Your 'Data is Never Lost' industry best encryption standards to keep your data safe and secure.</p>
+                <p><i class="fa-solid fa-check"></i>We are also compliant with all international data privacy compliance norms.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Data Security Section End-->
+
+<!--Payments Section Start-->
+
+<div class="payments-slider">
+
+<div class="payments-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Internet Can Go Offline, Your Clinic Need Not</h2>
+                <p><i class="fa-solid fa-check"></i><span>Probuz Patient Management System </span> comes with the industry first offline feature.</p>
+                <p><i class="fa-solid fa-check"></i>Perform every clinical function seamlessly even if there is a disruption in internet services.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <video autoplay="" muted=""  style="width: 80%;">
+                    <source src="https://probuztech.in/Content/assets/images/clinic/offline_doc.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="payments-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <video autoplay="" muted="" style="width: 80%;">
+                    <source src="https://probuztech.in/Content/assets/images/clinic/payment.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Cards, E-Wallets, UPI: Accept All Thru Probuz Payments</h2>
+                <p><i class="fa-solid fa-check"></i><span>Probuz Clinic Management Software </span> has been integrated with Tally Accounting.</p>
+                <p><i class="fa-solid fa-check"></i>Integrations with Inventory Software, Payment Wallets like PayTM, UPI and swipe machines.</p>
+                <p><i class="fa-solid fa-check"></i>Go ahead &amp; accept payments in whatever way you want and let Probuz Payments do the rest for you.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="payments-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <h2>Seamless Data Migration</h2>
+                <p><i class="fa-solid fa-check"></i>Scanned records, on premise software or niche players like Practo Clinic Management Software?</p>
+                <p><i class="fa-solid fa-check"></i>Do not worry our proprietary data migration Mule tool makes data migration a breeze.</p>
+                <p><i class="fa-solid fa-check"></i>Get your clinic up and running with Probuz Clinic Management Software in no time.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/Data_Migration.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!--Payments Section End-->
+
+<!--Product Demo Section Start-->
+
+<div class="product-demo-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/clinic/icon-demo.png" alt="consultation" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h5>Product Demo</h5>
+                <h3>Confused About The Best Clinic Management Software For Your Clinic?</h3>
+                <p>Real time analytics, industry first offline feature, cloud enabled, fully integrated, highly trained support team, multi platform capabilities, best in class data security, seamless data migration and much more.</p>
+                <p>View the product demo videos to experience the feature rich Probuz clinic management software.</p>
+                <div class="button">
+                    <span class="button-content">Sign Up&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Product Demo Section End-->
+
+<!--Faq Section Start-->
+
+<div class="faq-section">
+    <div class="container">
+        <div class="common--subheader text-center">Frequently Asked Questions</div>
+
+        <div class="accordion">
+ 
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion1">
+                <label for="accordion1" class="accordion-item-title"><span class="icon"></span>1. What can I do with Probuz Clinic Management Software?</label>
+                <div class="accordion-item-desc">
+                    Probuz Clinic Management Software/Clinic Management Software is a robust SaaS platform designed to streamline operations and processes of small to mid-sized clinics while significantly reducing costs. Unparalleled scalability and flexibility in terms of licensing, deployment, and upgrades are some of the benefits that ProbuzClinic Management Software offers
+
+                    Probuz Clinic Management Software’s user interface accelerates all your workflows and processes by enabling you to navigate smoothly via the keyboard on an HTML5 screen.
+                    
+                    With Probuz Clinic Management Software’s flexible pricing scheme, you will be able to get the best package with all the features you need for the price you can afford. Simply put, you maximize the value of money when you go for Probuz Clinic Management Software to help you run and manage your Clinic operations.
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion2">
+                <label for="accordion2" class="accordion-item-title"><span class="icon"></span>2. Why should I prefer a Cloud-based Clinic Management Software over others?</label>
+                <div class="accordion-item-desc">
+                  Cloud-based Clinic Management Software offers countless benefits that can help you save time and money. Doctors are now finding that cloud-based patient management system is not only easy to set up, but actually goes ahead and eliminates their overhead costs.
+                  The flexibility of a cloud-based clinic management software allows doctors to add new patients, users and multiple locations quickly and efficiently- without garnering a lot of expense or downtime. Learn the other advantages of using Probuz Clinic Management System - Learn the other advantages of using Probuz Medical Store Software
+                  With cloud-based Clinic management software, practices benefit from economy of scale – since many providers use the same system, and redundant costs are minimized, if not eliminated.
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion3">
+                <label for="accordion3" class="accordion-item-title"><span class="icon"></span>3. Is my data secure with Probuz Clinic Management Software?</label>
+                <div class="accordion-item-desc">
+                    We believe in prioritizing your data security over others. We provide the most robust encryption and data infrastructure available. These includes: Industry-leading data system security. All your data transfers with Probuz Clinic Management Software have the highest level of SSL/TLS encryption against malicious parties
+
+                    Privacy and HIPAA compliance. Probuz Clinic Management System meets all HIPAA and proposed HHS certification requirements
+                    
+                    Account security. Access to your EMR Software account is monitored with strict user access levels so you can be sure that information doesn’t go to the wrong place.
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion4">
+                <label for="accordion4" class="accordion-item-title"><span class="icon"></span>4. Which physician specialities can use the EHR/EMR Software?</label>
+                <div class="accordion-item-desc">
+                    Our electronic medical records software is as specialised as your practice. Customise the templates to fit your speciality & charting preferences.
+
+                    Probuz Practice Management tools are designed for 4 specialities, including Ophthalmology, Dental, Veterinary and General Practice. Customise our Advanced EHR templates to fit your workflow & preferences. It’s a faster, simpler way to capture patient data & attest for Meaningful Use – which means you can spend more time treating patients & less time fussing with charts. When every practice and specialisation is unique, why should the EMR Software / Clinic Management Software be the same?
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion5">
+                <label for="accordion5" class="accordion-item-title"><span class="icon"></span>5. How fast will the support team get back to solve my queries?</label>
+                <div class="accordion-item-desc">
+                    Our dedicated and highly trained support team through their comprehensive range of customer support services ensure quick response & quicker solutions for all your requirements.
+                    Need help? Call our Support Team anytime at 1800-121-6532 or write to <a href="https://probuztech.in/" style="color: green;">support@myProbuz.com</a>
+                </div>
+            </div>
+        
+        
+        
+        </div>
+
+    </div>
+</div>
+
+<!--Faq Section End-->
+
+<!--improve Management Software Section Start-->
+
+<div class="improve-management-software-section">
+    <h2>HOW CAN YOU IMPROVE YOUR PRACTICE WITH PROBUZ CLINIC MANAGEMENT SOFTWARE?</h2>
+    <div class="container">
+    <p><span>Probuz Clinic Management Software</span> is the best in class software to book appointments and register slots for your patients. Doctors can send <span>SMS and email to patients</span> to inform them about booking and can schedule events, send reminders to patients using ProbuzClinic Management System.
+        With Probuz Clinic Management Software doctors can search patients by name, phone number, patient ID, age, clinic, last visited etc. ProbuzClinic Management System is highly scalable, you can add new branches and activate or deactivate them in a single click. <span>Probuz Clinic Management Software allows you to focus on expanding your clinic</span> rather than spend time on managing it.
+        Patient information is stored on Probuz <span>>cloud based Clinic Management Software</span> and can be accessed from anywhere. Probuz Cloud based dental Clinic Management Software ensures your data is never lost as we use industry best data security standards.
+        Using Probuz Clinic Management Software you can book an appointment in multiple ways- Kiosk, Mobile and web. All your appointments can be accessed from anywhere.
+        With Probuz <span>EMR Software</span>, doctors can view medical history, past medical history, Paramètres, Observations,Diagnosis Notes, Attach Files, Record Voice Notes, Other Attachments, Consent Forms, Prescription etc. Our EMR Software also allows doctors to Refer to other Surgeons / Doctors, Billing with offers & memberships, Estimation Payment History, Summary, Follow up reminders , Follow up appointments etc.
+        Probuz Clinic Management Software will directly <span>intimate the patients about the re-schedule</span> or cancellation through SMS.
+        Probuz Clinic Management Software assists the patients who need not carry out their prescription sheet along with them all the time to get their medicines. This on-trend e-prescription is also helpful for future use and further treatments.
+        Probuz Clinic Management Software provides e-summary of the consultation to the patients rapidly. Also, generate the patient’s bill through this app as simple as that.</p>
+    </div>
+</div>
+
+<!--improve Management Software Section Start-->
+
+<!--Footer Section Start-->
+
+<div class="footer-section">
+    <div class="container">
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-lg-3 col-md-12 col-12">
+                <a href="index.html"><img src="https://probuztech.in/Content/probuz%20logo.png" alt="logo" class="img-fluid"></a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12">
+                <h6>Company</h6>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="leadership.html">Meet Our Team</a></li>
+                    <li><a href="choose.html">Why Choose Us</a></li>
+                    <li><a href="careers.html">Career</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="index.html">Investors</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12">
+                <h6>Solutions</h6>
+                <ul>
+                    <li><a href="softwareDevelopment.html">Software Development</a></li>
+                    <li><a href="digitalMarketing.html">Digital Marketing</a></li>
+                    <li><a href="technicalSupport.html">Technical Support</a></li>
+                    <li><a href="apiServicing.html">API Servicing</a></li>
+                    <li><a href="security.html">Security</a></li>
+                    <li><a href="payment.html">Payments</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12">
+                <h6>Resources</h6>
+                <ul>
+                    <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+                    <li><a href="termsOfServices.html">Terms Of Services</a></li>
+                    <li><a href="refundPolicy.html">Refund Policy</a></li>
+                    <li><a href="bankDetails.html">Bank Details</a></li>
+                    <li><a href="legal.html">Legal</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="siteMap.html">Site map</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-12  col-12">
+                <h6>Social Media</h6>
+                <div class="d-flex align-items-center gap-4">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </div>   
+        <div class="border-b"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-12">
+                <p>© 2024 PROBUZ TECHNOLOGIES PVT. LTD All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-3 col-md-2 col-12">
+                <i class="fa-solid fa-chevron-up" onclick="topFunction()" ></i>
+            </div>
+            <div class="col-lg-4 col-md-5 col-12">
+                <div class="d-flex align-items-center justify-content-center gap-4">
+                    <a href="index.html">
+                    <div class="button">
+                        <span class="button-content"><i class="fa-brands fa-apple"></i>App Store</span>
+                    </div>
+                    </a>
+                    <a href="index.html">
+                    <div class="button">
+                        <span class="button-content"><i class="fa-brands fa-google-play"></i>Google Play</span>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer Section End-->
+
+<!--jquery--> 
+<script src="bootstrap/js/jquery-3.7.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--slick js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--bootstrap js-->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+
+    $('.navTrigger').click(function () {
+$(this).toggleClass('active');
+console.log("Clicked menu");
+$("#mainListDiv").toggleClass("show_list");
+$("#mainListDiv").fadeIn();
+
+});
+</script>
+<!--custom js-->
+<script src="js/script.js"></script>
+</body>
+</html>
+

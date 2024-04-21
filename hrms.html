@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="PROBUZ TECHNOLOGIES PVT. LTD">
+    <meta name="keywords" content="Probuz">
+    <meta name="author" content="Probuz Technologies">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRMS</title>
+    <link rel="icon" type="image/x-icon" href="https://probuztech.in/Content/assets/images/favicon/favicon.png">
+     <!--Bootstrap css-->
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" class="css">
+     <!--slick css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <!--font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <link rel="stylesheet" href="css/style.css" class="css">
+</head>
+<body>
+
+<!--Nav Section Start-->  
+
+<div class="first-nav">
+<div class="container">
+    <div class="d-flex justify-content-between">
+        <div class="d-flex align-items-center gap-2">
+            <i class="fa-solid fa-phone"></i>
+            <h6><a href="tel:7875006677">7875006677</a></h6>
+        </div>
+        <div class="d-flex align-items-center gap-2">
+            <i class="fa-solid fa-envelope"></i>
+            <h6>info@probuztech.com</h6>
+        </div>
+    </div>
+</div>
+</div> 
+
+<nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><div><img src="https://probuztech.in/Content/probuz%20logo.png" alt="logo" class="img-fluid"></div></a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <div class="dropbtn">Company
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="about.html">About Us</a>
+                          <a href="choose.html">Why Choose Us</a>
+                          <a href="leadership.html">Leadership Team</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <div class="dropbtn">IT Solutions
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown-content it-solution-content">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <h6>IT Solutions</h6>
+                                    <a href="softwareDevelopment.html">Software Development</a>
+                                    <a href="digitalMarketing.html">Digital Marketing</a>
+                                    <a href="technicalSupport.html">Technical Support</a>
+                                    <a href="apiServicing.html">API Servicing</a>
+                                    <a href="security.html">Security</a>
+                                    <a href="appDevelopment.html">App Development</a>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <h6>Industries</h6>
+                                    <a href="healthCare.html">Health Care</a>
+                                    <a href="education.html">Education</a>
+                                    <a href="ecommerse.html">Ecommerse</a>
+                                    <a href="finance.html">Finance</a>
+                                    <a href="solarUtilities.html">Solar & Utilities</a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li>
+                    <div class="dropdown">
+                        <div class="d-flex justify-content-center align-items-center gap-1">
+                            <i class="fa-solid fa-user"></i>
+                            <div class="dropbtn loginbtn">Login
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>    
+                        <div class="dropdown-content login-content">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <h6><span><img src="https://probuztech.in/Content/assets/images/icons/client.png" alt="image"></span>Customer</h6>
+                                    <a href="https://probuztech.in/Customer/Customer_Register" class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-square-full"></i>
+                                        <div>Register</div>
+                                    </a>
+                                    <a href="https://probuztech.in/Customer/Cust_Login" class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-square-full"></i>
+                                        <div>Login</div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <h6><span><img src="https://probuztech.in/Content/assets/images/icons/employee.png" alt="image"></span>Employee</h6>
+                                    <a href="https://probuztech.in/Employee/SignUp" class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-square-full"></i>
+                                        <div>Register</div>
+                                    </a>
+                                    <a href="https://probuztech.in/Employee/SignIn" class="d-flex align-items-center gap-2">
+                                        <i class="fa-solid fa-square-full"></i>
+                                        <div>Login</div>
+                                    </a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>    
+                </li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav> 
+
+<!--Nav Section End-->
+
+<!--HRMS Home Section Start-->
+
+<div class="hrms-home-section">
+    <div class="container">
+        <div class="hrms-home-content">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+             <div class="common--subheader">HRMS</div>
+              <div class="para">Cloud based HRMS software acts as a single point of contact for all your core HR functionalities. Check out all the core features of Probuz HRMS 
+             </div>
+              
+             
+             <div class="small"><a href="index.html">Home</a>&nbsp;&nbsp;
+                <span><i class="fa-solid fa-chevron-right"></i>&nbsp;&nbsp;Products</span>
+                <span><i class="fa-solid fa-chevron-right"></i>&nbsp;&nbsp;HRMS</span>
+             </div>
+             </div>
+             <div class="col-lg-6 col-md-6 col-12">
+              <img src="https://probuztech.in/Content/assets/images/hrms/hrmsfront.png" alt="hrms" class="img-fluid">
+             </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!--HRMS Home Section End-->
+
+<div class="sideBar">
+    <div class="offer">
+        <img src="https://probuztech.in/Content/OFFER-1.gif" alt="offer" class="img-fluid">
+    </div>
+    <div class="call">
+        <a href="tel:9623440094">
+        <p>Call Now 9623440094&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone"></i></p>
+        </a>
+    </div>
+    <div class="whatsapp">
+        <a href="https://wa.me/9623440094">
+        <p>WhatsApp 9623440094&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-whatsapp"></i></p>
+        </a>
+    </div>
+    </div>
+
+<!--HR Department Section Start-->
+
+<div class="hr-department-section">
+    <div class="container">
+        <div class="common--subheader text-center">Get The Most Of Your HR Department With Probuz HRMS</div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="hr-department-card">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/icon6.png" class="img-fluid" alt="hr-department">
+                    <h6>All Inclusive HRMS</h6>
+                    <p>Every payroll processing activity made easy with Probuz HRMS.</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="hr-department-card">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/icon3.png" class="img-fluid" alt="hr-department">
+                    <h6>Compliance Management</h6>
+                    <p>100% compliant. HRMS Software handles every tax related parameters.</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="hr-department-card">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/icon5.png" class="img-fluid" alt="hr-department">
+                    <h6>Mobile HR</h6>
+                    <p>Promotes mobility and makes it easy to work on the go.</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="hr-department-card">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/icon4.png" class="img-fluid" alt="hr-department">
+                    <h6>Data-Guard</h6>
+                    <p>Cloud security provides best data backup and prevents phishing.</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--HR Department Section End-->
+
+<!--Reduce Employee Expenses Section Start-->
+
+<div class="reduce-employee-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/hrms/expenses.jpg" alt="employee" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="head">Reduce Employee Expenses</div>
+                <p>Probuz HRMS lets its users schedule interviews, process onboarding, etc. with just a few clicks. It is an end-to-end human resource management system. Every HR duty like creating job templates, scheduling interview rounds, shortlisting candidates, generating offer letter, storing applicants' and employees' data etc. can be handled easily with the software.</p>
+                 <p>With all the core hr processes just a few clicks away, our cloud based HR management system therefore reduces your time and expenditure on employee management. Thus, bringing down the total cost of human resources management.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Reduce Employee Expenses Section End-->
+
+<!--HRMS Demo Section Start-->
+
+<div class="healthcare-demo-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/hrms/hrmsicon.png" class="img-fluid" alt="slider">
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <iframe width="530" height="691"
+                src="https://probuztech.in/Email_Template/EnquiryIframe.html" name="myframe" id="myframe">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--HRMS Demo Section End-->
+
+<!--Staff Management Software Section Start-->
+
+<div class="staff-management-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="head">Staff Management Software</div>
+                <p>Probuz HRMS is a set of tools developed to manage everything related to hr functionalities, including payroll automation, recruitment management, staff management, employee database management, etc. Our HR software solution also assists HR in all their critical operations right from hiring workers/ employees to retirement. The payroll to be done every month for your employees, processing arrears, leave management, attendance, FnF settlement, etc. Probuz HRMS is an intelligent cloud based staff management software that helps bring down unwanted costs involved in workforce management by automating most of the hr processes.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <img src="https://probuztech.in/Content/assets/images/hrms/Staff_Management.png" alt="employee" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Staff Management Software Section End-->
+
+<!--Updates Section Start-->
+
+<div class="updates-slider">
+
+    <div class="update-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/kr-reminders.jpg" alt="image" class="img-fluid">
+                 </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <h2>Updates & Reminders</h2>
+                    <p>
+                        Our cloud based Human Resources Management System helps generate and run insightful charts at the dashboard itself displaying set reminders along with new updates and releases. Such informative charts help keep you informed for any important decision to be made. It also makes sure that the HR professional get timely reminders for important task like tax follow-ups, meeting, conference calls, etc. Follow-up is now no more a challenge.
+                    </p>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    
+    <div class="update-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <h2>User Interactive</h2>
+                    <p>
+                        Our personalized AI-powered HR assistant i.e. smHRty is all set to revolutionize the HR management. Almost all questions are attended by the bot itself, keeping your HRs free for other prime duties. It saves more time of HR professionls. Mundane queries which include questions associated with leaves taken, leaves left, pay slips, manager details, knowing your PF account number, other employment details etc. are no more a hurdle for any HR. Therefore, a much better employee/user experience is observed.
+                    </p>
+                    <p>
+                        All in one, our HRMS software acts as a single point of contact to get all your key HR reports and processes.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                   <img src="https://probuztech.in/Content/assets/images/hrms/reporting.jpg" alt="image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="update-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/user_interactive.jpg" alt="image" class="img-fluid">
+                 </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <h2>Intelligent Reporting</h2>
+                    <p>       
+                        Create error-free and intelligent HR MIS reports at the click of a button with Probuz HRMS. This is something that makes Probuz HRMS one of the best HRM software in India. The drag and drop feature makes it easy to get customized reports on the go. It lets you generate reports of various kinds including attendance reports, leave reports, salary reports, bank statements, separated employees’ report, etc.             
+                    </p>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    
+<!--Updatess Section End-->
+
+<!--HRMS Guides Section Start-->
+
+<div class="hrms-guides-section">
+    <div class="container">
+        <h1>HRMS (Human Resource Management System): A Complete Guide 2020</h1>
+        <div class="total">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/HRMS.png" class="img-fluid" alt="image">
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                  <div class="head">What Is HRMS ?</div>  
+                  <p><span>HRMS is a new age HR (Human resource) management solution that makes every HR duty effortless. </span>Duties include employee information management, attendance recording, payroll, on-boarding and much more. The HRMS assists your human resource personnel in their critical as well as mundane operations to save more time and boost productivity.</p>
+                 
+                </div>
+            </div>
+            <p>Employee leave tracking, taxation, time tracking, performance appraisal, punch-in and out, etc. are no more a burden for your human resource department. An intuitive well-designed, easy to use and easy to implement HR software brings each and every HR operation on the same page. Information rich dens are what makes HRMS system so useful for businesses.</p>
+            <p>HR system basically automates all the repetitive tasks thus, making HR payroll job easier, error-free and less time consuming. The time saved here could rather be put into practicing better strategies for business concerns like employee retention, budgeting, etc. In addition to it, HR payroll software helps you keep errors at cove.</p>
+            <div class="head">History And Evolution Of HRMS Software</div>
+            <p>of today, HRM software is considered as one of the most basic and important requirements of HR department to manage and store employee information data. Human resources management software could be seen dominating almost every department at workplaces which includes recruitment, on-boarding, payroll, full and final, etc. But, what is the history behind? How could HRMS come up so high?</p>
+            <p>This is mid-20th century, where HR was just for recruiting the best talent and paying them based on their worked hours. This was all calculated and processed by papers, papers and just papers. Loss of just a single sheet could create disputes due to the lack of a centralized system. Anyways, this was about to change soon.</p>
+            <p>On the way towards 21st century, computers got merged into HR giving a whole new face to human resources due to increasing demand of reliability and effectiveness. Technological developments and arising demand of handling great volume of data led to HRIS system (Human resource information system) and HR became more strategic than ever before, as we see it today.</p>
+        </div>
+    </div>
+</div>
+
+<!--HRMS Guides Section End-->
+
+<!--HRMS Modules Section Start-->
+
+<div class="hrms-modules-section">
+    <div class="row">
+        <div class="col-lg-5 col-md-12 col-12">
+            <div class="left-part">
+            <div class="head">Different Modules Of HRMS Software:</div>
+            <p>
+                The HR solution is meant to ease different types of HR roles. Therefore, there are various modules in an HRMS software dedicated to each role. Given below some of them-
+            </p>
+            <img src="https://probuztech.in/Content/assets/images/hrms/Hrms%20image%20(2).png" alt="module" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-lg-7 col-md-12 col-12">
+            <div class="api-integration-section">
+                <div class="api-servicing">
+                    <div class="api-servicing-head">
+                   <img src="https://probuztech.in/Content/assets/images/hrms/Recruitment%20management%20software.png" alt="hrms-module" class="img-fluid">     
+                   <h1>RECRUITMENT MANAGEMENT SOFTWARE:</h1>
+                   <p>Old-school paper based recruitment practice makes search of new potential candidates and their hiring a tedious job. Whereas, recruitment management system lets you recruit with speed of light. Preparing job templates, candidate follow-ups, applicant tracking, etc. are no more pain-points for human resource folks. The system curbs efforts, resources, energy and time spent in recruiting the best talents.Talent acquisition is no more a milestone!</p>
+                   </div>
+                   <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Training%20management%20software.png" alt="hrms-module" class="img-fluid"> 
+                    <h1>TRAINING MANAGEMENT SOFTWARE:</h1>
+                    <p>This type of HR software helps you lower efforts put into on-boarding and training programs. It lets you connect your employees even before they are actually on-boarded. The system helps you prepare learning and training blueprints easily. Training management software provides training necessary for effective and much more engaged workforce. Increase efficiency in your training operations and make it better!</p>
+                   </div>
+                   <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Expense%20Management.png" alt="hrms-module" class="img-fluid"> 
+                    <h1>EMPLOYEE MANAGEMENT SOFTWARE:</h1>
+                    <p>Employee / workforce dedicated software helps HR manage their employees on daily routine. This can be self-service portal, attendance management, full and final settlement, leave approvals, and much more. Employee management software gives power to HR's hands. Workforce handling becomes easier and quicker with this platform for HR personnel. Be more efficient when it comes to handling your employees as they are the driving force behind an organization’s success.</p>
+                   </div>
+                   <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Leave%20management%20(1).png" alt="hrms-module" class="img-fluid"> 
+                    <h1>PERFORMANCE MANAGEMENT SOFTWARE:</h1>
+                    <p>Every organization needs to pay their employees along with some appraisals meant to recognize their hardwork at workplace. Appraisal management software takes care of this. It keeps a regular track of employee's performance throughout the year and provides bias-free review to their performance, which is also based on their colleagues' reviews. An ideal solution to set up a fair appraisal process!</p>
+                   </div>
+                   <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/All-in-1%20HRMS%20software.png" alt="hrms-module" class="img-fluid"> 
+                    <h1>FULL AND FINAL SETTLEMENT (F&F):</h1>
+                   <p>When an employee leaves the organization, it will calculate full and final payable for him in just a few clicks. All the payroll details like gratuity, bonus, insurance, medical, etc will be available to the HR team in a jiffy. This software is a big relief for HR people and employees for a hassle-free exit process. Implementation of this excellent HRMS module can ease your full and final settlement process immediately!</p>
+                   </div>
+                   <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Employee%20Self%20Service%20Portal%20(ESS).png" alt="hrms-module" class="img-fluid"> 
+                    <h1>EMPLOYEE SELF SERVICE PORTAL (ESS):</h1>
+                    <p>This module empowers workforce by providing them option to manage their data. It also decreases workload of the human resource team by eliminating mundane/ routine HR tasks. Employees’ motivation and trust level increases when they have online access to their payroll and other details. Employees can maintain and update their information using ESS Portal without bothering HR. Engage and empower your entire staff with dedicated ESS portal!</p>
+                    </div>
+                    <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Time%20Tracking%20Software.png" alt="hrms-module" class="img-fluid"> 
+                     <h1>TIME TRACKING SOFTWARE:</h1>
+                     <p>It saves managers' and employees’ time to jump through few forgotten entries. The software automatically calculates total working hours and helps HR to run payroll accurately and quickly. Time management software is useful for organizations in monitoring their staff and making them more productive. Managing employees’ time has become easier!</p>
+                    </div>
+                    <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Expense%20Management.png" alt="hrms-module" class="img-fluid"> 
+                     <h1>EXPENSE MANAGEMENT:</h1>
+                     <p>Submitting vouchers and going from one desk to another for reimbursement approval is a tedious job. But, cloud-based expense management system makes this whole process a cakewalk by managing all your expenses online under one roof. Say goodbye to tedious paperwork and manage employees’ expenses effectively!</p>
+                    </div>
+                    <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Leave%20management%20(1).png" alt="hrms-module" class="img-fluid"> 
+                     <h1>LEAVE MANAGEMENT:</h1>
+                     <p>Workforce management becomes easy with an employee leave management system. It eliminates complexities and integrates with traditional payroll seamlessly. The software reduces time company spends on time-off process and makes the entire procedure transparent. Your employees, managers and human resource personnel can access this software from anywhere and at any time. No more spreadsheets, paper forms and emails to manage employee leaves!</p>
+                    </div>
+                    <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Payroll%20software.png" alt="hrms-module" class="img-fluid"> 
+                     <h1>PAYROLL SOFTWARE:</h1>
+                    <p>Payroll processing, tax breakdown, deductions and allowances' accountability is complex. Now, all this is possible in few clicks with a cloud-based HR payroll software! The system does all the calculation error-free and make payroll more accurate and simpler. Take charge of your payroll activities to experience a new level of payroll efficiency.</p>
+                    </div>
+                    <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Leave%20management%20(1).png" alt="hrms-module" class="img-fluid"> 
+                    <h1>TIMESHEET MANAGEMENT SOFTWARE:</h1>
+                    <p>Employees always expect timely and accurate remuneration after a month of hard work. Error or delays in timesheet generation can disturb the entire cycle of salary processing. So, investing in cloud based timesheet management software can take away all these worries. All the data is stored on cloud that means instant access to the required information in real-time is possible now. The system turns this tiresome task of timesheet generation a piece of cake for HR people.</p>
+                    </div>
+                    <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Payroll%20software.png" alt="hrms-module" class="img-fluid"> 
+                    <h1>ATTENDANCE MANAGEMENT SOFTWARE:</h1>
+                    <p>Keep a track of approved/unapproved leaves, absenteeism, working hours, sick leaves, etc. at the click of a button with an automated attendance system. Now, HR people don’t need to worry about incorrect attendance tracking and miscalculated or delay salary as the system tracks and stores attendance records for you. Bid goodbye to manual attendance management!</p>
+                    </div>
+                    <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/Leave%20management%20(1).png" alt="hrms-module" class="img-fluid"> 
+                    <h1>HR CHATBOT:</h1>
+                    <p>Due to technological advancement, a conversational tool like AI-powered HR chatbot is available to interact with your employees and provide them all the necessary information they require. It improves various HR activities by making use machine intelligence and also saves HR professionals from doing mundane and repetitive tasks. This interactive tool solves employees’ queries related interview status, payroll information, leave request, mediclaim policy, job application, appraisal status, etc.</p>
+                    </div>
+                    <div class="api-servicing-head">
+                    <img src="https://probuztech.in/Content/assets/images/hrms/All-in-1%20HRMS%20software.png" alt="hrms-module" class="img-fluid"> 
+                    <h1>ALL-IN-1:</h1>
+                    <p>Basically aimed at bigger enterprises' requirements, this software comprises of all tools required by an HR management, which includes employee leave tracking, employee management, HR chatbot, training management, time-tracking, and every single parameter related to HR. Generally, there are SMEs too, who require all-in-one solution. Probuz HRMS is one such option.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--HRMS Modules Section End-->
+
+<!--HRMS Features Section Start-->
+
+<div class="hrms-features-section">
+    <div class="container">
+        <div class="head">HRMS Software Features:</div>
+        <p>There are tons of businesses and industries that rely on HR software for their daily operations including even small jobs like leave approval of employees till accounting. Perhaps, what features of an HRM software make it so important? Below are some-</p>
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <ul>
+                    <li><i class="fa-solid fa-square-full"></i>Cloud-supportive</li>
+                    <li><i class="fa-solid fa-square-full"></i>Budget friendly (monthly subscriptions)</li>
+                    <li><i class="fa-solid fa-square-full"></i>Accurate payroll</li>
+                    <li><i class="fa-solid fa-square-full"></i>Workforce management</li>
+                    <li><i class="fa-solid fa-square-full"></i>ESS (Employee self-service) portal</li>
+                    <li><i class="fa-solid fa-square-full"></i>24/7 availability</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <ul>
+                    <li><i class="fa-solid fa-square-full"></i>Data integration</li>
+                    <li><i class="fa-solid fa-square-full"></i>Compliance management</li>
+                    <li><i class="fa-solid fa-square-full"></i>Foolproof and info-rich reporting</li>
+                    <li><i class="fa-solid fa-square-full"></i>HR chatbot</li>
+                    <li><i class="fa-solid fa-square-full"></i>Expense management</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="para">
+        <div class="head">HRMS Market Trends</div>
+        <p>Here's a list of trend Probuz HRMS has seen around 2019 and further-</p>
+        <p>Let’s take a closer look at each type.</p>
+        </div>
+        <div class="para">
+        <div class="head">Mobile HR Is The New Normal:</div>
+        <p>With drastic developments in market, with millennials dominating the maximum, businesses had to tilt towards being mobile or promote mobility at their workplace.</p>
+        <p>Mobile payroll app is the one of its results. It lets employees work remotely without a second thought. And, therefore mobile workforce HR.</p>
+        </div>
+        <div class="para">
+        <div class="head">Mobile App's Integration:</div>
+        <p>According to a study, more than 80% of the millennials have been observed to be leaning towards mobile usage as compared to desktops. Mobile applications make it very easy and feasible to work upon. Integrating your self-service portal with some most used messaging apps could engage your workforce in a better way. Therefore, you come closer to your internal customers and serve better.</p>
+        </div>
+        <div class="para">
+        <div class="head">Flexible Work Hours:</div>
+        <p>Disown the outdated 9 to 6 working schedule and wake up to the flexible working patterns. There are tech giants who practiced less working days and hours with flexible working hours and observed improved results and productivity at business revenue. Human resources management system with its capability of employee and time-tracking, it calculates accurate worked hours promoting flexible employee working hours.</p> 
+        </div>
+        <div class="para">
+        <div class="head">Artificial Intelligence (HR BOTS):</div>
+        <p>AI-based chatbots help segregate HR duty efficiently. Some of the basic queries from employees gets easily attended by these bots thus, saving efforts your efforts and time. These bots, in near future, can easily mimic an HR in their absence with some added humor for employee engagement. An HRMS along with such HR-based bots could be the most craved one! Check out Probuz HRMS' bot - smHRty!</p>
+        </div>
+        <div class="para">
+        <div class="head">Wearable In HR:</div>
+        <p>Wearable! This could give a whole new dimension to HR management. Imagine receiving your leave approval notification on your wrist itself. Wouldn't it be great? Wearable in HR could be the biggest step towards employee engagement and would bring you closer to your employees. Whether they are on-site or remote area, communication is no more a concern.</p>
+        </div>
+    </div>
+    <div class="container container-second">
+        <div class="head">Benefits Of HRMS Software</div>
+        <p>With time becoming as important as money, enterprises have expanded their search of best available resource to save maximum possible minutes at work. HRMS being the most advantageous thing for any SME or startup, it not only benefits the recruiting department or payroll but also helps you boost your overall business productivity and revenue too.</p>
+        <p>Given below are some prime benefits of HRMS software:</p>
+        <ul>
+            <li><i class="fa-solid fa-check"></i>KPI monitoring</li>
+            <li><i class="fa-solid fa-check"></i>Easy access to employee data</li>
+            <li><i class="fa-solid fa-check"></i>Appraisal management</li>
+            <li><i class="fa-solid fa-check"></i>Simplified recruitment procedure</li>
+            <li><i class="fa-solid fa-check"></i>Simplified on-boarding</li>
+            <li><i class="fa-solid fa-check"></i>Hassle-free implementation</li>
+            <li><i class="fa-solid fa-check"></i>Automated daily</li>
+            <li><i class="fa-solid fa-check"></i>Mundane operations</li>
+            <li><i class="fa-solid fa-check"></i>Reduced errors</li>
+            <li><i class="fa-solid fa-check"></i>Easy to use</li>
+            <li><i class="fa-solid fa-check"></i>Improved employee satisfaction</li>
+        </ul>
+    </div>
+    <div class="container container-second">
+        <div class="head">What's The Difference? HRIS Vs HCM Vs HRMS</div>
+        <div class="head">Difference Between HRIS And HCM</div>
+        <p>Generally, terms HRIS, HCM (Human capital management) and HRMS are used as synonyms for each other. Whereas, the fact; HRIS is a function of HCM, which means HRIS (Human Resource information system) is one of the types of HCM.</p>
+        <p>Similarly, HCM is a type of HRMS (Human resources management software). HCM is all about HRIS, self-service, on-boarding, recruitment, etc. Whereas, HRMS comprises of all these HCM functions with payroll and labor management as well.</p>
+         <div class="head">The Need For An HRMS</div>
+         <p>It is essential for the company management to assess the company needs and then select the suitable HRMS solution for the organization. Involve HR team and one representative from each department in a decision making process to get the clear picture of the long-term and short-term HRMS goals and its processes.</p>
+         <p>Finding and implementing the right HR Solution can contribute huge to the company’s growth. Cloud-based HRMS system improves HR functionalities and helps HR team to act more strategically. Moving towards automation and data analytics is a smart decision for businesses.</p>
+          <p>Below are some quick reasons which explains ‘WHY’ companies need HRMS Solutions:</p>
+        <ul>
+            <li><i class="fa-solid fa-check"></i>Its paperless approach to store and manage employee data eliminates the problem of misplaced and also drops the cost of investment in space and stationery.</li>
+            <li><i class="fa-solid fa-check"></i>HR MIS Reports tool allows HR to generate reports without much effort, so getting a quick-view of critical information becomes easier.</li>
+            <li><i class="fa-solid fa-check"></i>Employees can access their own data through employee self-service portal which builds trust in the organization.</li>
+            <li><i class="fa-solid fa-check"></i>Increase employee engagement and make company staff more productive.</li>
+            <li><i class="fa-solid fa-check"></i>Easy to track real-time employee data, including leave balances and attendance.</li>
+        </ul>
+    </div>
+    <div class="container container-second">
+        <div class="head">How To Choose A Right HRMS Software?</div>
+        <p>While choosing the perfect vendor, you must first know about your business insights like its requirements, vertical, etc. Choosing an HRMS might be the biggest deciding factor for your business' future but it will surely benefits administration work of HR team. Not all size fits all! The same way every HR software is not same. Basically there are 2 categories under HRMS – Cloud based HRMS and On-premise HRMS. Cloud-based HR software are basically meant for smaller enterprises and startups. Whereas, on-premise system is more suitable for larger ones. Here are few more factors-</p>
+        <ul>
+        <li><i class="fa-solid fa-check"></i>Budget</li>
+        <li><i class="fa-solid fa-check"></i>Cloud security</li>
+        <li><i class="fa-solid fa-check"></i>Implementation duration, etc.</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="head">HRMS Software Pricing:</div>
+        <p>There are tons of options available in market. Different HR systems offer different pricing. Pricing can be monthly or annually based depending upon vendor or your business. There also exists categories under subscriptions. They are - Standard, professional, premium and FREE trials as well. Each category comes up with its unique set of features. Get the best one that suits your company needs and also perform HR activities with ease. Also, consider the 'data security' factor while making a decision. Check out what Probuz HRMS offers here! Also, don't forget to ask for free trials.</p>
+    </div>
+    <div class="container">
+        <div class="head">Conclusion:</div>
+        <p>Companies must leverage on advanced technologies like Big Data analytics as it helps the human resource department in various areas such as job enrichment, job rotation, 360-degree appraisal process, contract worker management, etc. If you really want to take your HR team to the next level, then automated and efficient cloud-based HR software is a must. In this ‘digital era’, employees want to work smarter and also you can manage all your HR activities seamlessly in one go!</p>
+        <p>When companies take support of such techniques, then HR professionals can work like never before. They can perform their tasks, from recruitment to exit formalities, in a better way. And, this will lead to better business growth and happy workplace.</p>
+        <p>For more details, you can reach us here, sales[at]sagesoftware.co.in or simply SMS SAGE to 56767. Follow us Twitter or Facebook to get latest update about Probuz HRMS. Do not forget to book a 15-day free trial of our HR software.</p>
+    </div>
+</div>
+
+<!--HRMS Features Section End-->
+
+<!--Faq Section Start-->
+
+<div class="faq-section">
+    <div class="container">
+        <div class="common--subheader text-center">Frequently Asked Questions</div>
+
+        <div class="accordion">
+ 
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion1">
+                <label for="accordion1" class="accordion-item-title"><span class="icon"></span>1. WHY IS HRMS NEEDED?</label>
+                <div class="accordion-item-desc">
+                    Uploading a bulk transfer is very easy and that can happen by uploading an excel or even manually adding a beneficiary before you transfer. We automate and authenticate bulk transfers via API's and make it much simpler as an alternative to uploading files on a bank portal. HRMS system is needed to bring all HR duties like payroll, employee management, self-service, recruitment, accounting, etc. on the same page. The system ensures accuracy and efficiency at every corner of HR department.
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion2">
+                <label for="accordion2" class="accordion-item-title"><span class="icon"></span>2. Do i need to have a business registered ?</label>
+                <div class="accordion-item-desc">
+                    <p>Most popular HRMS modules are as below:</p>
+                    <ul>
+                    <li><i class="fa-solid fa-check"></i>Time tracking</li>
+                    <li><i class="fa-solid fa-check"></i>ESS (employee self-service) portal</li>
+                    <li><i class="fa-solid fa-check"></i>Attendance management</li>
+                    <li><i class="fa-solid fa-check"></i>Performance appraisal</li>
+                    <li><i class="fa-solid fa-check"></i>HR MIS reporting</li>
+                    <li><i class="fa-solid fa-check"></i>Timesheet management</li>
+                    <li><i class="fa-solid fa-check"></i>Training management</li>
+                    <li><i class="fa-solid fa-check"></i>Expense management</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion3">
+                <label for="accordion3" class="accordion-item-title"><span class="icon"></span>3. WHAT ARE THE BENEFITS OF HRMS SYSTEM?</label>
+                <div class="accordion-item-desc">
+                    <p>Benefits of HRMS are endless. Listed below are top benefits of a cloud-based HR software:</p>
+                    <ul>
+                    <li><i class="fa-solid fa-check"></i>Engaged workforce</li>
+                    <li><i class="fa-solid fa-check"></i>Easy and accurate payroll</li>
+                    <li><i class="fa-solid fa-check"></i>Compliance management</li>
+                    <li><i class="fa-solid fa-check"></i>Remote workforce management</li>
+                    <li><i class="fa-solid fa-check"></i>Easy leave management</li>
+                    <li><i class="fa-solid fa-check"></i>Better employee experience</li>
+                    <li><i class="fa-solid fa-check"></i>Accuracy at statutory reporting</li>
+                    <li><i class="fa-solid fa-check"></i>Easy tax management</li>
+                    <li><i class="fa-solid fa-check"></i>Easy data access</li>
+                    <li><i class="fa-solid fa-check"></i>Flexible HR</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion4">
+                <label for="accordion4" class="accordion-item-title"><span class="icon"></span>4. HOW DO HRMS WORK?</label>
+                <div class="accordion-item-desc">An HRMS fetches necessary data through its dedicated modules and makes HR process easier. All in one HR system brings every HR duty under one platform. Every module is meant for separate jobs like time tracking for employees, managing attendance,payroll, training for employees, and much more.</div>
+            </div>
+        
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion5">
+                <label for="accordion5" class="accordion-item-title"><span class="icon"></span>5. HOW FLEXIBLE AND SCALABLE A HRMS SOFTWARE CAN BE?</label>
+                <div class="accordion-item-desc">Flexibility and scalability are other important features of an effective HRMS system. Customizable parameters and HR templates make it scalable with respect to your business. As your business scales up, HR software (HRMS) can be tailored according to your business needs. Cloud-support provides the required flexibility to management promoting productivity at the enterprise.</div>
+            </div>
+        
+        </div>
+
+    </div>
+</div>
+
+<!--Faq Section End-->
+
+<!--Footer Section Start-->
+
+<div class="footer-section">
+    <div class="container">
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-lg-3 col-md-12 col-12">
+                <a href="index.html"><img src="https://probuztech.in/Content/probuz%20logo.png" alt="logo" class="img-fluid"></a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12">
+                <h6>Company</h6>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="leadership.html">Meet Our Team</a></li>
+                    <li><a href="choose.html">Why Choose Us</a></li>
+                    <li><a href="careers.html">Career</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="index.html">Investors</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12">
+                <h6>Solutions</h6>
+                <ul>
+                    <li><a href="softwareDevelopment.html">Software Development</a></li>
+                    <li><a href="digitalMarketing.html">Digital Marketing</a></li>
+                    <li><a href="technicalSupport.html">Technical Support</a></li>
+                    <li><a href="apiServicing.html">API Servicing</a></li>
+                    <li><a href="security.html">Security</a></li>
+                    <li><a href="payment.html">Payments</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12">
+                <h6>Resources</h6>
+                <ul>
+                    <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+                    <li><a href="termsOfServices.html">Terms Of Services</a></li>
+                    <li><a href="refundPolicy.html">Refund Policy</a></li>
+                    <li><a href="bankDetails.html">Bank Details</a></li>
+                    <li><a href="legal.html">Legal</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="siteMap.html">Site map</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-12  col-12">
+                <h6>Social Media</h6>
+                <div class="d-flex align-items-center gap-4">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </div>   
+        <div class="border-b"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-12">
+                <p>© 2024 PROBUZ TECHNOLOGIES PVT. LTD All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-3 col-md-2 col-12">
+                <i class="fa-solid fa-chevron-up" onclick="topFunction()" ></i>
+            </div>
+            <div class="col-lg-4 col-md-5 col-12">
+                <div class="d-flex align-items-center justify-content-center gap-4">
+                    <a href="index.html">
+                    <div class="button">
+                        <span class="button-content"><i class="fa-brands fa-apple"></i>App Store</span>
+                    </div>
+                    </a>
+                    <a href="index.html">
+                    <div class="button">
+                        <span class="button-content"><i class="fa-brands fa-google-play"></i>Google Play</span>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer Section End-->
+
+<!--jquery--> 
+<script src="bootstrap/js/jquery-3.7.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--slick js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--bootstrap js-->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+
+    $('.navTrigger').click(function () {
+$(this).toggleClass('active');
+console.log("Clicked menu");
+$("#mainListDiv").toggleClass("show_list");
+$("#mainListDiv").fadeIn();
+
+});
+</script>
+<!--custom js-->
+<script src="js/script.js"></script>
+</body>
+</html>
+
