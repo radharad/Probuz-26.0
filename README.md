@@ -42,7 +42,7 @@ This is a Company website built using HTML, CSS, and JavaScript and Modern Libra
 For any inquiries or feedback, please email me at komalsatpute950@gmail.com
 
 ## Demo Link:
-You can view the live demo [here](https://playful-mooncake-ce80a5.netlify.app).
+You can view the live demo [here](https://calm-zuccutto-3cc79e.netlify.app).
 
 ## FAQs:
 - **Q:** How can I contribute to this project?
