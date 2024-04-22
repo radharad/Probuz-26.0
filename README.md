@@ -1,7 +1,7 @@
 # Probuz Technologies Company Website
 
 ## Description:
-This is a Company website built using HTML, CSS, and JavaScript and Modern Libraries to showcase my skills.
+This is a Company website built using HTML, CSS, and JavaScript and Modern Libraries.
 
 ## Installation Instructions:
 1. Clone the repository: `git clone https://github.com/radharad/Probuz-26.0.git `
